@@ -24,6 +24,9 @@
     <ClInclude Include="src\MyEngine\Core.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\MyEngine\EntryPoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\MyEngine\Application.cpp">

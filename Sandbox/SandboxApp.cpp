@@ -14,7 +14,7 @@ public:
 	}
 };
 
-MyEngine::Application* CreateApplication()
+MyEngine::Application* MyEngine::CreateApplication()
 {
 	return new Sandbox();
 }

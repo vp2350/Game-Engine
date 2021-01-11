@@ -4,6 +4,7 @@
 extern MyEngine::Application* MyEngine::CreateApplication();
 int main(int argc, char** argv)
 {
+	printf("Welcome to My Engine!!!!");
 	auto app = MyEngine::CreateApplication();
 	app->Run();
 	delete app;
