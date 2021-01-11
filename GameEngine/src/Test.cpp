@@ -3,7 +3,7 @@
 namespace GameEngine {
 	void Print()
 	{
-		printf("Hello World! \n");
+		printf("Welcome! \n");
 
 	}
 }
