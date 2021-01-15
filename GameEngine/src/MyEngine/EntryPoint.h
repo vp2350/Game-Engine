@@ -4,7 +4,10 @@
 extern MyEngine::Application* MyEngine::CreateApplication();
 int main(int argc, char** argv)
 {
-	printf("Welcome to My Engine!!!!");
+	MyEngine::Log::Init();
+	MyEngine_CORE_Warn("Initialized Log!");
+	MyEngine_Info("Hello!");
+
 	auto app = MyEngine::CreateApplication();
 	app->Run();
 	delete app;
